@@ -1,12 +1,9 @@
 public class hotel {
-    int roomNum;
-    int roomSize;
-    person guestOne;
-    person guestTwo;
-    
-    hotel(int num, int capacity){
+    public int roomNum;
+    public person guestOne;
+    public person guestTwo;
+        hotel(int num){
         roomNum = num;
-        roomSize = capacity;
     }
 
     void checkIn(person guest){
@@ -31,6 +28,13 @@ public class hotel {
         else{
             System.out.println("There's no one to check out from this room.");
         }
+    int checkCapacity(){
+        if(guestOne != null && guestTwo == null){
+            
+        }
     }
 
+    }
 }
+
+
