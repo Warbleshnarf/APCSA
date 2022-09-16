@@ -1,10 +1,10 @@
-public class person {
+public class Person {
     double height;
     int age;
     String name;
     String hairColor;
 
-    person(double h, int a, String n, String hC){
+    Person(double h, int a, String n, String hC){  //declares a person object with height age name and hairColor
         height = h;
         age = a;
         name = n;
